@@ -1,4 +1,4 @@
-const CACHE="mi-cache-v1"
+const CACHE="mi-cache-v2"
 const RECURSOS=[
     "./",
     "./sw.js",

@@ -494,9 +494,10 @@
         </div>
       </div>
     </footer>
+    hola
     <script src="js/bootstrap.bundle.min.js"></script>
     <script>
-        if("serviceworker" in navigation){
+        if("serviceWorker" in navigation){
             navigator.serviceWorker.register("sw.js")
             .them(reg=>console.log('Está funcionando workers',reg))
             .catch(err=>console.log('Error en el service worker',err))
